@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="EnergyOps 园区能源管理与决策支持交互演示"
+    />
+    <title>EnergyOps · 园区能源决策工作台</title>
+    <link rel="stylesheet" href="style.css?v=204305e7e76d" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast" role="status"></div>
+    <dialog id="detail">
+      <div id="detail-body"></div>
+      <button class="btn" onclick="document.querySelector('#detail').close()">
+        关闭详情
+      </button>
+    </dialog>
+    <script src="engine.js?v=0c111dcb1278"></script>
+    <script src="carbon-factor-data.js?v=589057cda97b"></script>
+    <script src="carbon-factor.js?v=3e36bedd4a78"></script>
+    <script src="meeting-support.js?v=e04a605c0bbb"></script>
+    <script src="i18n.js?v=ebac231a9894"></script>
+    <script src="load-forecast-data.js?v=979369287db8"></script>
+    <script src="load-forecast.js?v=876cf7f0add7"></script>
+    <script src="app.js?v=1ec9589ebd7a"></script>
+    <script src="business-ui.js?v=e46750aaed25"></script>
+    <script src="load-forecast-ui.js?v=3506ffc824ae"></script>
+    <script src="joint-forecast-data.js?v=b3caa126e962"></script>
+    <script src="joint-forecast-ui.js?v=294eba49af7f"></script>
+    <script src="carbon-factor-ui.js?v=0bbf34e481a7"></script>
+  </body>
+</html>
